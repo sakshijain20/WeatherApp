@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // initialize model. (I know we should not initialize model in View. But for simplicity...)
+        // initialize model. 
         model = WeatherInfoShowModelImpl(applicationContext)
         // initialize ViewModel
         viewModel = ViewModelProviders.of(this).get(WeatherInfoViewModel::class.java)
