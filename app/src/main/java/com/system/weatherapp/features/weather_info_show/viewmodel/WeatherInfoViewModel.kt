@@ -14,10 +14,7 @@ import com.system.weatherapp.utils.unixTimestampToTimeString
 class WeatherInfoViewModel : ViewModel() {
 
     /**
-     * In our project, for sake for simplicity we used different LiveData for success and failure.
-     * But it's not the only way. We can use a wrapper data class to implement success and failure
-     * both using a single LiveData. Another good approach may be handle errors in BaseActivity.
-     * For this project our objective is only understand about MVVM. So we made it easy to understand.
+      For this project our objective is only understand about MVVM. 
      */
     val cityListLiveData = MutableLiveData<MutableList<City>>()
     val cityListFailureLiveData = MutableLiveData<String>()
@@ -25,10 +22,7 @@ class WeatherInfoViewModel : ViewModel() {
     val weatherInfoFailureLiveData = MutableLiveData<String>()
     val progressBarLiveData = MutableLiveData<Boolean>()
 
-    /**We can inject the instance of Model in Constructor using dependency injection.
-     * For sake of simplicity, I am ignoring it now. So we have to pass instance of model in every
-     * methods of ViewModel. Please be noted, it's not a good approach.
-     */
+   
     fun getCityList(model: WeatherInfoShowModel) {
 
         model.getCityList(object :
@@ -43,10 +37,8 @@ class WeatherInfoViewModel : ViewModel() {
         })
     }
 
-    /**We can inject the instance of Model in Constructor using dependency injection.
-     * For sake of simplicity, I am ignoring it now. So we have to pass instance of model in every
-     * methods of ViewModel. Pleas be noted, it's not a good approach.
-     */
+    
+    
     fun getWeatherInfo(cityId: Int, model: WeatherInfoShowModel) {
 
         progressBarLiveData.postValue(true) // PUSH data to LiveData object to show progress bar
