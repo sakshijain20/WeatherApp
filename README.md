@@ -17,3 +17,11 @@ Then the class calls the api interface by passing the city id as the query param
 And there the data gets stored in UI
 
 * The UI is broken into multiple parts for the single screen.
+
+[
+![Screenshot 2020-12-12 at 10 37 28 PM](https://user-images.githubusercontent.com/38380683/101991781-e523e400-3cd4-11eb-847c-42b42fa076a7.png)
+
+
+![Screenshot 2020-12-12 at 10 37 41 PM](https://user-images.githubusercontent.com/38380683/101991783-e81ed480-3cd4-11eb-8235-28132c0e59e6.png)
+
+](url)
