@@ -58,6 +58,7 @@ To build the project on your own follow these steps:
 
 Clone the project
 Get an API key from Weather Api.
+Add it to your project.
 
 
 Build the project!
