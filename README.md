@@ -5,7 +5,8 @@ As the name suggests it is the weather app,which hits the weather api.
 
 * The MVVM model is used in this application.
 # MVVM MODEL
-The Model-View-ViewModel Pattern
+The Model-View-ViewModel Pattern.
+
 The main players in the MVVM pattern are:
 
 1.The View — that informs the ViewModel about the user’s actions.
