@@ -1,5 +1,4 @@
-# WeatherAppMVVM
-As the name suggests it is the weather app,which hits the weather api.
+# WeatherApp
 
 ##  OverView
 
